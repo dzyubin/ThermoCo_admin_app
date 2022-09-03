@@ -1,12 +1,12 @@
-import './App.css';
+import './App.css'
 // import './pages/Login'
 
-function App() {
+function App () {
   return (
     <div className="App">
       ddd
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
