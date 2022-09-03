@@ -1,10 +1,13 @@
+import React from 'react'
+import { Outlet } from 'react-router-dom'
 import './App.css'
-// import './pages/Login'
+import { NavMenu } from './components/NavMenu'
 
 function App () {
   return (
     <div className="App">
-      ddd
+      <NavMenu />
+      <Outlet />
     </div>
   )
 }

@@ -18,16 +18,11 @@ root.render(
       <Route path="/" element={<App />}>
         <Route index element={<Login />} />
         <Route path='dashboard' element={<Dashboard />} />
-        {/* <Route path="teams" element={<Teams />}> */}
-          {/* <Route path=":teamId" element={<Team />} /> */}
-          {/* <Route path="new" element={<NewTeamForm />} /> */}
-          {/* <Route index element={<LeagueStandings />} /> */}
-        {/* </Route> */}
         <Route
           path="*"
           element={
             <main style={{ padding: '1rem' }}>
-              <p>There's nothing here!</p>
+              <p>There&apos;s nothing here!</p>
             </main>
           }
         />
