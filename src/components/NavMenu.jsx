@@ -16,7 +16,6 @@ export function NavMenu () {
   return (
     <div>
       <Link to="/dashboard">Dashboard</Link> |{' '}
-      <Link to="/">Dashboard</Link> |{' '}
       {isLoggedIn ? <button onClick={onLogout}>Logout</button> : ''}
     </div>
   )

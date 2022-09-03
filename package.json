@@ -7,6 +7,8 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
+    "noty-img": "^3.2.0-img",
+    "notyf": "^3.10.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hooks-global-state": "^2.0.0",
@@ -17,7 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "npx jest --color",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -46,6 +48,8 @@
     "eslint-plugin-n": "^15.2.5",
     "eslint-plugin-promise": "^6.0.1",
     "eslint-plugin-react": "^7.31.4",
+    "identity-obj-proxy": "^3.0.0",
+    "react-test-renderer": "^18.2.0",
     "typescript": "^4.8.2"
   }
 }
